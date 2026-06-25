@@ -4,13 +4,18 @@ description: >
   Translate an approved goal into an actionable execution plan — with task
   breakdown, dependency ordering, effort estimates, risk per task, milestones,
   and a clear sequence to start immediately. Use this skill after goal-evaluator
-  outputs PURSUE or DESCOPE, and before agent-engineering begins execution.
+  outputs PURSUE or DESCOPE, and before working-standards begins execution.
   Trigger phrases: "plan this out", "break this down into tasks", "how do we
   approach this", "create a project plan", "sequence these tasks", "what should
   we do first", "turn this goal into steps", "estimate how long this will take",
   "map out the dependencies", "build a sprint plan", "what's the execution plan".
-  This skill bridges decision (goal-evaluator) and execution (agent-engineering).
+  This skill bridges decision (goal-evaluator) and execution (working-standards).
   It answers: what exactly needs to happen, in what order, by when.
+  DISAMBIGUATION — "plan this out" is ambiguous: breaking ONE approved goal into
+  executable tasks with dependencies and estimates → project-planner (this skill);
+  sequencing MULTIPLE goals across a timeline → roadmap-planning; designing the
+  technical architecture before building → system-design. Choose project-planner
+  for task-level breakdown of a single initiative.
 ---
 
 # Project Planner Skill
@@ -288,11 +293,11 @@ KNOWN RISKS
 FROM goal-evaluator:
   Receives: approved goal + success definition + exit criteria + assumptions
 
-TO agent-engineering:
+TO working-standards:
   Passes: task list + sequence + effort estimates + risk flags
 
-TRIGGERS agent-qa when:
-  A task's scope is ambiguous — use agent-qa PRE mode to define boundaries
+TRIGGERS project-qa when:
+  A task's scope is ambiguous — use project-qa PRE mode to define boundaries
 
 TRIGGERS tenth-man when:
   The plan feels confident — use tenth-man to find what's missing

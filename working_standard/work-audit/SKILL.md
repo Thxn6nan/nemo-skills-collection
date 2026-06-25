@@ -9,7 +9,14 @@ description: >
   "QA this output", "something feels off about this", "check this before
   sending", "review the quality of this work", "is this good enough to ship?",
   "find defects in this code/document/design". This skill finds WHAT IS WRONG
-  with what was produced. For WHETHER it's in scope, use project-qa instead.
+  with what was produced.
+  DISAMBIGUATION — "review this" is ambiguous; choose by what you're checking
+  for: defects and quality issues in the deliverable → work-audit (this skill);
+  whether the work matches the agreed scope and requirement → project-qa;
+  whether the code is correctly tested and verified → testing-strategy;
+  whether the plan has hidden risks or blind spots → tenth-man. When the
+  request is a general "review before ship" with no other signal, default to
+  work-audit for defect-finding.
 ---
 
 # Work Audit Skill

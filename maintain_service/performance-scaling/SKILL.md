@@ -10,6 +10,12 @@ description: >
   "prepare for 10x traffic", "capacity planning", "the system is struggling
   under load", "should we scale horizontally or vertically?", "where is the
   bottleneck?", "performance profiling", "latency is too high".
+  DISAMBIGUATION — use a different skill instead when: the slowness is a
+  sudden production incident affecting users now (use incident-response);
+  the cause is a specific bug rather than capacity or load (use
+  debugging-rootcause); the slowness is specifically database queries or
+  schema (use database-maintenance). Choose performance-scaling for
+  profiling, optimization, load testing, and capacity planning.
 ---
 
 # Performance & Scaling Skill

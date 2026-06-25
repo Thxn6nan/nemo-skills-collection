@@ -97,9 +97,9 @@ RISK REGISTER
 SKILL TRIGGER POINTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Before T__: Run agent-qa (PRE) to define scope boundary
-  During execution: Apply agent-engineering working standards
-  After T__: Run agent-audit on output
+  Before T__: Run project-qa (PRE) to define scope boundary
+  During execution: Apply working-standards working standards
+  After T__: Run work-audit on output
   After T__: Run anti-hallucination if output contains data/numbers
   At M2: Run tenth-man to challenge assumptions before committing to M3
 
@@ -156,7 +156,7 @@ TASK BREAKDOWN
 
   T03  Define scope boundary for modified agent
        What:     Explicitly define what agent WILL and WON'T do differently
-       Done when: agent-qa PRE report approved
+       Done when: project-qa PRE report approved
        Estimate:  O:0.5h R:1h P:2h → Weighted: 1h × 1.2 = 1.2h
        Depends:   none (parallel with T01/T02)
        Owner:     Engineer A + reviewer
@@ -257,9 +257,9 @@ RISK REGISTER
 SKILL TRIGGER POINTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Before T04:    agent-qa (PRE) — define scope of prompt changes
-  During all:    agent-engineering standards (Reliability, Maintainability)
-  After T04:     agent-audit on modified agent code
+  Before T04:    project-qa (PRE) — define scope of prompt changes
+  During all:    working-standards standards (Reliability, Maintainability)
+  After T04:     work-audit on modified agent code
   During T06:    anti-hallucination check on resolution outputs
   At M3 if <60%: project-compass — reassess before continuing
 

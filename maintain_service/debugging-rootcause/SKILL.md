@@ -10,6 +10,13 @@ description: >
   locally but not in production", "intermittent failure", "trace this bug",
   "what's causing this?". This skill finds WHY — work-audit finds WHAT IS WRONG,
   project-monitor detects THAT something is wrong.
+  DISAMBIGUATION — use a different skill instead when: the problem is in
+  production NOW with users affected, needing coordinated crisis response
+  (use incident-response; it calls this skill for its diagnosis step); the
+  problem is specifically slowness or capacity under load (use
+  performance-scaling); reviewing not-yet-broken work for latent defects
+  (use work-audit). Choose debugging-rootcause to find the cause of a
+  specific known failure — not to coordinate a crisis or audit for unknowns.
 ---
 
 # Debugging & Root Cause Skill

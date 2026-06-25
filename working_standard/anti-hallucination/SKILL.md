@@ -241,9 +241,9 @@ Not all hallucinations have equal impact. Calibrate response accordingly:
 
 ```
 anti-hallucination  ← Is the output truthful and accurate? (trust)
-agent-engineering   ← Is the system well-engineered? (design quality)
-agent-qa            ← Is the agent in scope? (behavior)
-agent-audit         ← Are there defects? (correctness)
+working-standards   ← Is the system well-engineered? (design quality)
+project-qa            ← Is the agent in scope? (behavior)
+work-audit         ← Are there defects? (correctness)
 tenth-man           ← Are we missing risks? (adversarial)
 ```
 

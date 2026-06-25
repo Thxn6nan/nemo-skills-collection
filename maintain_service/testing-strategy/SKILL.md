@@ -10,7 +10,11 @@ description: >
   "testing strategy", "how do we test this?", "tests aren't catching bugs",
   "what should we test?", "is this correct?", "does this do what was asked?".
   Covers V&V — Verification ("built it right") and Validation ("built the right thing").
-  For E2E and integration test strategy, use alongside e2e-testing skill.
+  DISAMBIGUATION — choose by test level: unit tests, coverage analysis, and
+  verification/validation of individual components → testing-strategy (this skill);
+  full system flows from user input to output, integration test strategy →
+  e2e-testing; finding defects in an already-produced deliverable → work-audit.
+  Use testing-strategy and e2e-testing together: unit/coverage first, then E2E.
 ---
 
 # Testing Strategy Skill

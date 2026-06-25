@@ -10,8 +10,13 @@ description: >
   "help us prioritize", "what has the most potential", "what should we cut",
   "what's the next big move", "how do we make this better", "improve this project",
   "what direction should we take", or any question about what to build, keep, or drop.
-  This skill gives strategic direction — not defect lists (agent-audit) or
-  scope checks (agent-qa). It answers: what next, and why.
+  This skill gives strategic direction — not defect lists (work-audit) or
+  scope checks (project-qa). It answers: what next, and why.
+  DISAMBIGUATION — choose by what "next" means: strategic direction for an
+  EXISTING project (grow/cut/pivot) → project-compass (this skill); sequencing
+  MULTIPLE goals onto a timeline → roadmap-planning; deciding whether a single
+  NEW goal is worth pursuing → goal-evaluator; breaking ONE approved goal into
+  executable tasks → project-planner.
 ---
 
 # Project Compass Skill
@@ -201,10 +206,10 @@ THE ONE THING:
 
 | This skill answers | Use a different skill for |
 |-------------------|--------------------------|
-| What to build next | Whether what was built is correct → `agent-audit` |
-| Which direction to take | Whether the agent stayed in scope → `agent-qa` |
+| What to build next | Whether what was built is correct → `work-audit` |
+| Which direction to take | Whether the agent stayed in scope → `project-qa` |
 | What to cut | Whether output contains errors → `anti-hallucination` |
-| What has the most potential | Whether the system is well-engineered → `agent-engineering` |
+| What has the most potential | Whether the system is well-engineered → `working-standards` |
 | What assumptions are wrong | Stress-testing a specific plan → `tenth-man` |
 
 ---

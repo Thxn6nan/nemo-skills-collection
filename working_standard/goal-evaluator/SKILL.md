@@ -12,7 +12,7 @@ description: >
   "we're thinking of doing X — is it a good idea", "is this the right thing to
   focus on", "assess this opportunity", "should we invest in this".
   Outputs one of five verdicts: PURSUE / REFINE / DEFER / DESCOPE / DROP.
-  Use before project-compass (direction) and agent-engineering (execution).
+  Use before project-compass (direction) and working-standards (execution).
 ---
 
 # Goal Evaluator Skill
@@ -340,8 +340,8 @@ Exit condition: <when to stop if pursuing>
 ```
 goal-evaluator     ← Should we do this at all? (BEFORE committing)
 project-compass    ← Where should this go? (DURING the project)
-agent-engineering  ← How should we build this? (WHILE executing)
-agent-audit        ← Is the output correct? (AFTER producing)
+working-standards  ← How should we build this? (WHILE executing)
+work-audit        ← Is the output correct? (AFTER producing)
 tenth-man          ← What are we missing? (AT ANY POINT)
 anti-hallucination ← Can we trust the numbers? (WHEN data is used)
 ```

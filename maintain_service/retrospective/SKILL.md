@@ -9,6 +9,11 @@ description: >
   "post-project review", "what should we do differently next time?",
   "team reflection", "lessons learned". A retrospective without action items
   is a venting session. This skill produces change.
+  DISAMBIGUATION — "what went wrong" is ambiguous: learning from a COMPLETED
+  project or sprint to improve future work → retrospective (this skill);
+  finding the technical cause of a SPECIFIC failure or bug → debugging-rootcause;
+  deciding the future DIRECTION of an ongoing project → project-compass.
+  Choose retrospective when the work is done and the goal is team learning.
 ---
 
 # Retrospective Skill

@@ -39,7 +39,7 @@ Standard decomposition order:
 
 6. HARDENING
    □ Performance: is it fast enough at realistic load?
-   □ Security: does it follow security principles from agent-engineering?
+   □ Security: does it follow security principles from working-standards?
    □ Observability: are there sufficient logs to debug failures?
 ```
 
@@ -154,7 +154,7 @@ Decomposition order:
 4. SCOPE BOUNDARY DEFINITION
    □ What should the agent never do? (explicit prohibitions)
    □ What requires human approval before the agent acts?
-   □ Define using agent-qa PRE mode
+   □ Define using project-qa PRE mode
 
 5. FAILURE HANDLING
    □ What does the agent do when a tool returns an error?
@@ -165,7 +165,7 @@ Decomposition order:
    □ Define a test set: 20+ examples covering edge cases
    □ Establish baseline metrics before optimizing
    □ Run anti-hallucination checks on outputs with data/numbers
-   □ Run agent-audit on sample outputs before production use
+   □ Run work-audit on sample outputs before production use
 
 7. MONITORING
    □ Log all tool calls with inputs and outputs
@@ -190,7 +190,7 @@ Decomposition order:
 2. SCOPE DEFINITION
    □ What exactly will change? (be specific — a list of files/functions)
    □ What will NOT change? (explicit exclusions)
-   □ Use agent-qa to define and enforce scope
+   □ Use project-qa to define and enforce scope
 
 3. SMALL INCREMENTS
    □ One change at a time, tests passing at each step
@@ -200,7 +200,7 @@ Decomposition order:
 4. VERIFICATION AT EACH STEP
    □ Run tests after each change
    □ Confirm external behavior is unchanged
-   □ Run agent-audit on changed code
+   □ Run work-audit on changed code
 
 5. DOCUMENTATION UPDATE
    □ Update comments that described the old approach
